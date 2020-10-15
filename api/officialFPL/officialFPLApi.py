@@ -1,6 +1,6 @@
 import requests
 import json
-from logger import logger
+from logger.logger import logger
 
 class OfficialFPLApi:
 

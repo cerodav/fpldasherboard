@@ -4,7 +4,7 @@ from dashboardService.handlers.baseHandler import BaseHandler
 from api.officialFPL.officialFPLApi import OfficialFPLApi
 import pandas as pd
 from collections import defaultdict
-from dataCollectors.liveFPLAverageDataStore import LiveFPLAverageDataStore
+from dashboardService.dataCollectors.liveFPLAverageDataStore import LiveFPLAverageDataStore
 
 class DashboardRequestHandler(BaseHandler):
 

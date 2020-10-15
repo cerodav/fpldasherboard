@@ -1,5 +1,5 @@
 from datetime import datetime
-from liveFPLScrape.liveFPLScrape import LiveFPLScrape
+from api.liveFPLScrape.liveFPLScrape import LiveFPLScrape
 
 class LiveFPLAverageDataStore:
 

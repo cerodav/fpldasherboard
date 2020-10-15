@@ -1,6 +1,6 @@
 import requests
 import json
-from logger import logger
+from logger.logger import logger
 from bs4 import BeautifulSoup
 
 class LiveFPLScrape:

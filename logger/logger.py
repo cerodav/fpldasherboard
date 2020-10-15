@@ -38,6 +38,7 @@ class MyLogger(object, metaclass=SingletonType):
         print("Generate new instance")
 
     def get_logger(self):
+        print(self._logger)
         return self._logger
 
 # a simple usecase
