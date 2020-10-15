@@ -17,7 +17,7 @@ app = Application([
     ('/api/.*', DashboardRequestHandler)
 ])
 
-application = tornado.wsgi.WSGIAdapter(app)
+# application = tornado.wsgi.WSGIAdapter(app)
 
 http_server = HTTPServer(app)
 http_server.listen(options.port)
